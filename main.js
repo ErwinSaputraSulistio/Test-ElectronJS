@@ -19,7 +19,10 @@ function createWindow () {
 	})
 
   // and load the index.html of the app.
-  mainWindow.loadURL('https://ciwin-react-tickitz-arkademy.netlify.app')
+  mainWindow.loadURL('file://' + __dirname + '/index.html')
+  
+  // or load the app from deployed url's.
+  // mainWindow.loadURL('https://ciwin-react-tickitz-arkademy.netlify.app')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()

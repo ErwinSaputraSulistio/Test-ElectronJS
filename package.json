@@ -1,0 +1,20 @@
+{
+  "name": "testelectron",
+  "version": "1.0.0",
+  "description": "Electron Test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Ciwin",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.4"
+  },
+  "dependencies": {
+    "electron-reload": "^1.5.0",
+    "nodemon": "^2.0.7"
+  }
+}

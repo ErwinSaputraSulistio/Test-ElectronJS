@@ -1,0 +1,33 @@
+a {
+	color: black;
+}
+a:link {
+	text-decoration: none;
+}
+
+body, .btnArea {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+body {		
+	height: 88vh;
+}
+
+.btnSelect {
+	background: transparent;
+	border: 0.1vw solid #3CB371;
+	border-radius: 0.5vw;
+	color: #3cb371;
+	margin: 0.5vw;
+	padding: 0.5vw 1vw;
+	text-align: center;
+	width: 15vw;
+}
+
+.btnSelect:hover {
+	opacity: 0.5;
+	padding: 0.5vw 2vw;
+}
